@@ -1,3 +1,3 @@
-![Puppetificator](puppetificator.png)
+![Puppetificator](assets/puppetificator.png)
 
 Overlay images to create characters.
