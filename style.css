@@ -1,0 +1,47 @@
+#device{
+    max-height:             100%;
+    max-width:              100%;
+}
+
+#mirror img{
+    position:               absolute;
+    top:                    0px; 
+    left:                   0px;
+    max-height:             100%;
+    max-width:              100%;
+}
+
+#interface{
+    position:  absolute;    z-index:            200;  
+    bottom:          0%;    max-height:         20%;
+
+    margin-left:     2%;    margin-right:       2%;
+    padding-left:    2%;    padding-right:      2%;
+    padding-top:     1%;    padding-bottom:     1%; 
+    
+    border-top-right-radius:     5px;
+    border-top-left-radius:      5px;
+    
+    background-color:       #b088be;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+
+#interface button{
+    padding: 3px;
+    margin: 2px;
+    width: 150px;
+}
+
+#background{    z-index:    5}
+#wigBack{       z-index:    10}
+#puppetBody{    z-index:    15}
+#outfit{        z-index:    20}
+#wigMid{        z-index:    25}
+#puppetHead{    z-index:    30}
+#puppetFace{    z-index:    35}
+#wigFront{      z-index:    40}
+#pin{           z-index:    45}
+#flame{         z-index:    50}
+#say{           z-index:    55}
+#glaze{         z-index:    100}

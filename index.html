@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id="device">
+
+            <div id="mirror">
+                <img    id="background"     src="assets/background.png"/>
+                <img    id="wigBack"        src="assets/wigBack02.png"/>
+                <img    id="puppetBody"     src="assets/puppetBody.png"/>
+                <img    id="outfit"         src="assets/outfit01.png"/>
+                <img    id="wigMid"         src="assets/wigMid01.png"/>
+                <img    id="puppetHead"     src="assets/puppetHead.png"/>
+                <img    id="puppetFace"     src="assets/blank.png"/>
+                <img    id="wigFront"       src="assets/wigFront01.png"/>
+                <img    id="pin"            src="assets/blank.png"/>
+                <img    id="flame"          src="assets/flameRed.png"/>
+                <img    id="say"            src="assets/sayTest.png"/>
+                <img    id="glaze"          src="assets/blank.png"/>
+            </div>
+
+            <div id="interface">
+
+                <div>
+                    <button onClick="setFace('assets/puppetFace01.png');">Mask ON</button>
+                    <button onClick="setFace('assets/blank.png');">Mask OFF</button>
+                </div>
+
+                <div>
+                    <button onClick="setWigBack('assets/wigBack01.png');">Hair LONG</button>
+                    <button onClick="setWigBack('assets/wigBack02.png');">Hair SHORT</button>
+                </div>
+
+                <div>
+                    <button onClick="setFlame('assets/flameRed.png');">Flame RED</button>
+                    <button onClick="setFlame('assets/FlameBlue.png');">Flame BLUE</button>
+                    <button onClick="setFlame('assets/blank.png');">Flame OFF</button>
+                </div>
+                
+                <div>
+                    <button onClick="setPin('assets/blank.png');">Hairpin OFF</button>
+                    <button onClick="setPin('assets/pinFlower.png');">Hairpin CUTE</button>
+                    <button onClick="setPin('assets/pinBacon.png');">Hairpin ODD</button>
+                </div>
+                
+            </div>
+
+         </div>
+
+        <script src="code.js"></script>
+    </body>
+</html>
