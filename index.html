@@ -1,6 +1,6 @@
 <html>
     <head>
-        // this links the html file (website) to the css file (style)
+        <!-- this links the html file (website) to the css file (style) -->
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
@@ -8,11 +8,11 @@
         
         <div id="device">
             
-            // this is where the image is constructed
-            // you need to create an img with unique id per layer, not per image
-            // the img source is replaced when you click different buttons
-            // the img you pick here will load by default
-            // that's why some of them are 'blank.png' (a fully transparent file)
+            <!-- this is where the image is constructed
+                you need to create an img with unique id per layer, not per image
+                the img source is replaced when you click different buttons
+                the img you pick here will load by default
+                that's why some of them are 'blank.png' (a fully transparent file) -->
             
             <div id="mirror">
                 <img    id="background"     src="assets/background.png"/>
@@ -29,30 +29,25 @@
                 <img    id="glaze"          src="assets/blank.png"/>
             </div>
 
-            // the buttons
+            <!-- the buttons -->
             
             <div id="interface">
                 
-                // buttons replace the src of each img above
-                // there's a onclick function assigned to each of the img 
-                // setFace modifies puppetFace, setPin modifies pin, and so on
-                // the functions are defined in the js file
-
-                // puppetFace
+                <!-- buttons replace the src of each img above
+                    there's a onclick function assigned to each of the img 
+                    setFace modifies puppetFace, setPin modifies pin, and so on
+                    the functions are defined in the js file -->
                 
                 <div>
                     <button onClick="setFace('assets/puppetFace01.png');">Mask ON</button>
                     <button onClick="setFace('assets/blank.png');">Mask OFF</button>
                 </div>
 
-                // wigBack
-
                 <div>
                     <button onClick="setWigBack('assets/wigBack01.png');">Hair LONG</button>
                     <button onClick="setWigBack('assets/wigBack02.png');">Hair SHORT</button>
                 </div>
 
-                // flame
 
                 <div>
                     <button onClick="setFlame('assets/flameRed.png');">Flame RED</button>
@@ -60,7 +55,6 @@
                     <button onClick="setFlame('assets/blank.png');">Flame OFF</button>
                 </div>
 
-                // pin
                 
                 <div>
                     <button onClick="setPin('assets/blank.png');">Hairpin OFF</button>
@@ -72,7 +66,7 @@
 
          </div>
 
-        // and this links the html (website) to the js file 
+        <!-- this links the html (website) to the js file -->
         <script src="code.js"></script>
     </body>
 </html>
